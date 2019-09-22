@@ -1,0 +1,24 @@
+.links-of-author {
+  margin-top: 20px;
+}
+
+.links-of-author a,
+.links-of-author .exturl {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  if hexo-config('social_icons.transition') { the-transition(); }
+
+  &:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+    content: " ";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgb(random-color(0, 255) - 50%, random-color(0, 255) - 50%, random-color(0, 255) - 50%);
+  }
+}

@@ -1,0 +1,38 @@
+.btn {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 15px;
+  color: $black-light;
+  background: white;
+  border: 2px solid $black-light;
+  text-decoration: none;
+  border-radius: $btn-default-radius;
+  transition-property: background-color;
+  the-transition();
+  line-height: 2;
+
+  &:hover {
+    color: white;
+    background: $black-dim;
+    border: 2px solid $black-dim;
+  }
+
+  +.btn {
+    margin: 0 0 8px 8px;
+  }
+
+  .fa-fw {
+    width: (18em / 14);
+    text-align: left;
+  }
+}
+
+.btn-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: $text-color;
+  border-radius: 1px;
+
+  &+.btn-bar { margin-top: 4px; }
+}
