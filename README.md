@@ -7,4 +7,4 @@ The version of the NexT theme is [6.6.0](https://github.com/theme-next/hexo-them
 
 You can use these files for NexT.Gemini 6.6.0 by simply copy-pasting into `/themes/next/source/css`.
 
-[demo](https://ouuan.github.io)
+[demo](https://github.com/ouuan/ouuan.github.io/tree/hexo-archive)
